@@ -1,0 +1,115 @@
+[
+  {
+    "category": "영화",
+    "category_sub": "장편 영화",
+    "title": "장편영화 [이터널 선샤인] 주연 배우 모집",
+    "title_movie": "이터널 선샤인",
+    "content_id": 1,
+    "company_id": 1,
+    "contents": "20-30대 남성, 연기 경험 필수",
+    "post_img": "",
+    "company_email": "test1@company.com",
+    "company_phone": "010-1234-5678",
+    "post_at": "2024-12-01",
+    "closing_date": "2024-12-06",
+    "apply_content": "이메일 혹은 전화 지원",
+    "remarks": "프랑스어 가능 우대",
+    "recruit": {
+      "name": "조엘 배리시",
+      "gender": "남자",
+      "age": "20대 중반 ~ 30대 초반",
+      "actor_role": "주연",
+      "role_detail": "여주인공과의 기억을 잃고 싶어하는 20대 남자 주인공 역할"
+    }
+  },
+  {
+    "category": "드라마",
+    "category_sub": "웹 드라마",
+    "title": "웹 드라마 [이런게 사랑인걸까] 주,조연 배우 모집",
+    "title_movie": "이런게 사랑인걸까",
+    "content_id": 2,
+    "company_id": 115,
+    "contents": "20대 여성, 연기 경험 필수",
+    "post_img": "",
+    "company_email": "test115@company.com",
+    "company_phone": "010-5678-5678",
+    "post_at": "2024-12-03",
+    "closing_date": "2025-03-01",
+    "apply_content": "이메일 혹은 전화 지원",
+    "remarks": "액션 스쿨 수료자 우대",
+    "recruit_1": {
+      "name": "이주연",
+      "gender": "여자",
+      "age": "20대",
+      "actor_role": "주연",
+      "role_detail": "킬러 생활을 청산하고 평범한 삶을 꿈꾸는 20대 여성"
+    },
+    "recruit_2": {
+      "name": "김조연",
+      "gender": "여자",
+      "age": "20대",
+      "actor_role": "조연",
+      "role_detail": "아버지의 복수를 하는 킬러 역할"
+    }
+  },
+  {
+    "category": "영화",
+    "category_sub": "장편 영화",
+    "title": "영화 [미드나잇 인 파리] 주,조연 배우 모집",
+    "title_movie": "미드나잇 인 파리",
+    "content_id": 3,
+    "company_id": 115,
+    "contents": "20대 여성, 연기 경험 필수",
+    "post_img": "",
+    "company_email": "test115@company.com",
+    "company_phone": "010-5678-5678",
+    "post_at": "2024-12-08",
+    "closing_date": "2025-05-01",
+    "apply_content": "이메일 혹은 전화 지원",
+    "remarks": "연기 잘하면 우대",
+    "recruit_1": {
+      "name": "남주연",
+      "gender": "남자",
+      "age": "20대",
+      "actor_role": "주연",
+      "role_detail": "평범한 삶 20대 남성"
+    },
+    "recruit_2": {
+      "name": "유조연",
+      "gender": "여자",
+      "age": "20대",
+      "actor_role": "조연",
+      "role_detail": "바람피는 여자친구 역할"
+    }
+  },
+  {
+    "category": "드라마",
+    "category_sub": "웹 드라마",
+    "title": "웹 드라마 [사랑게 이런인걸까] 주,조연 배우 모집",
+    "title_movie": "사랑게 이런인걸까",
+    "content_id": 4,
+    "company_id": 115,
+    "contents": "20대 여성, 연기 경험 필수",
+    "post_img": "",
+    "company_email": "test115@company.com",
+    "company_phone": "010-5678-5678",
+    "post_at": "2024-12-03",
+    "closing_date": "2025-04-01",
+    "apply_content": "이메일 혹은 전화 지원",
+    "remarks": "액션 스쿨 수료자 우대",
+    "recruit_1": {
+      "name": "이주연",
+      "gender": "여자",
+      "age": "20대",
+      "actor_role": "주연",
+      "role_detail": "킬러 생활을 청산하고 평범한 삶을 꿈꾸는 20대 여성"
+    },
+    "recruit_2": {
+      "name": "김조연",
+      "gender": "여자",
+      "age": "20대",
+      "actor_role": "조연",
+      "role_detail": "아버지의 복수를 하는 킬러 역할"
+    }
+  }
+]
