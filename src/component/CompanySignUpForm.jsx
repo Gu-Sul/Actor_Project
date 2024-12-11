@@ -1,6 +1,6 @@
-import { InputWithButton } from "./InputWithButton";
-import { StyledButton } from "./StyledButton";
-import { StyledInput } from "./StyledInput";
+import { InputWithButton } from './InputWithButton';
+import { StyledButton } from './StyledButton';
+import { StyledInput } from './StyledInput';
 
 export const CompanySignUpForm = () => {
   return (
@@ -8,87 +8,87 @@ export const CompanySignUpForm = () => {
       <InputWithButton
         label="아이디"
         inputProps={{
-          size: "sm",
-          placeholder: "아이디를 입력하세요",
+          size: 'sm',
+          placeholder: '아이디를 입력하세요',
         }}
         buttonProps={{
-          size: "md",
-          variant: "lightgray",
-          label: "아이디 중복확인",
+          size: 'md',
+          variant: 'lightgray',
+          label: '아이디 중복확인',
           isLogin: true,
-          onClick: () => alert("중복확인 쳌"),
+          onClick: () => alert('중복확인 쳌'),
         }}
       />
       <label>
         비밀번호
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} type="password" />
       </label>
       <label>
         비밀번호 확인
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} type="password" />
       </label>
       <label>
         회사명
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} />
       </label>
       <label>
         사업자등록번호
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} />
       </label>
       <label>
         이메일
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} />
       </label>
       <label>
         홈페이지 링크
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} />
       </label>
       <label>
         담당자명
-        <StyledInput size={"md"} />
+        <StyledInput size={'md'} />
       </label>
       <InputWithButton
         label="휴대폰 번호"
         inputProps={{
-          size: "sm",
-          placeholder: "휴대폰 번호를 입력하세요",
+          size: 'sm',
+          placeholder: '휴대폰 번호를 입력하세요',
         }}
         buttonProps={{
-          size: "md",
-          variant: "lightgray",
-          label: "휴대폰 인증",
+          size: 'md',
+          variant: 'lightgray',
+          label: '휴대폰 인증',
           isLogin: true,
-          onClick: () => alert("휴대폰 번호 쳌"),
+          onClick: () => alert('휴대폰 번호 쳌'),
         }}
       />
       <InputWithButton
         inputProps={{
-          size: "sm",
-          placeholder: "인증번호를 입력하세요",
+          size: 'sm',
+          placeholder: '인증번호를 입력하세요',
         }}
         buttonProps={{
-          size: "md",
-          variant: "lightgray",
-          label: "인증번호 확인",
+          size: 'md',
+          variant: 'lightgray',
+          label: '인증번호 확인',
           isLogin: true,
-          onClick: () => alert("인증번호 쳌"),
+          onClick: () => alert('인증번호 쳌'),
         }}
       />
       <InputWithButton
         label="주소"
         inputProps={{
-          size: "sm",
-          placeholder: "주소를 입력하세요",
+          size: 'sm',
+          placeholder: '주소를 입력하세요',
         }}
         buttonProps={{
-          size: "md",
-          variant: "lightgray",
-          label: "주소검색",
+          size: 'md',
+          variant: 'lightgray',
+          label: '주소검색',
           isLogin: true,
-          onClick: () => alert("주소 쳌"),
+          onClick: () => alert('주소 쳌'),
         }}
       />
-      <StyledButton label={"회원가입"} />
+      <StyledButton label={'회원가입'} />
     </div>
   );
 };

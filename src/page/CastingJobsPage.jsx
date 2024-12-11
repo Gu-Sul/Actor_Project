@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { CastingJobCard } from "../component/CastingJobCard";
-import { useNavigate } from "react-router-dom";
-import { StyledButton } from "../component/StyledButton";
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { CastingJobCard } from '../component/CastingJobCard';
+import { useNavigate } from 'react-router-dom';
+import { StyledButton } from '../component/StyledButton';
 
 export const CastingJobsPage = () => {
   const [cast, setCast] = useState([]);
@@ -13,7 +13,7 @@ export const CastingJobsPage = () => {
   useEffect(() => {
     const loadCastData = async () => {
       try {
-        const response = await axios.get("/mockup_data/castPosting.JSON");
+        const response = await axios.get('/mockup_data/castPosting.JSON');
         setCast(response.data);
       } catch (err) {
         setError(err);
@@ -44,9 +44,9 @@ export const CastingJobsPage = () => {
           <option value="old">오래된 순</option>
         </select>
         <StyledButton
-          label={"새로운 공고 등록"}
-          size={"xl"}
-          onClick={() => navigate("/create_casting_job")}
+          label={'새로운 공고 등록'}
+          size={'xl'}
+          onClick={() => navigate('/create_casting_job')}
         />
       </div>
 

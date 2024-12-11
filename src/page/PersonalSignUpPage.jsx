@@ -1,5 +1,9 @@
 import { PersonalSignUpForm } from '../component/PersonalSignUpForm';
 
 export const PersonalSignUpPage = () => {
-  return <PersonalSignUpForm />;
+  return (
+    <div className="p-9">
+      <PersonalSignUpForm />
+    </div>
+  );
 };

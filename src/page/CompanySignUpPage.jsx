@@ -1,8 +1,8 @@
-import { CompanySignUpForm } from "../component/CompanySignUpForm";
+import { CompanySignUpForm } from '../component/CompanySignUpForm';
 
 export const CompanySignUpPage = () => {
   return (
-    <div className="pt-[300px]">
+    <div className="p-9">
       <CompanySignUpForm />
     </div>
   );
